@@ -31,10 +31,10 @@ Esta segunda entrega representa la evolución completa de la maqueta inicial HTM
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/ecommerce-react.git
+git clone https://github.com/juan-pousadas-bernardis/BeatShop_1.2
 
 # 2. Ingresar al directorio del proyecto
-cd ecommerce-react
+cd BeatShop
 
 # 3. Instalar las dependencias
 npm install

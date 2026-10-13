@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BeatShop - Tu tienda de beats</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+	<header class="main-header">
+		<section class="header-section">
+			<a href="index.html" class="logo"><span>Beat</span>Shop</a>
+			<input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+			<nav>
+				<ul class="nav-list">
+					<li><a href="index.html" class="active">Inicio</a></li>
+					<li><a href="pages/products.html">Beats</a></li>
+					<li><a href="pages/contact.html">Contacto</a></li>
+					<li><a href="pages/about.html">Acerca de</a></li>
+					<li><a href="pages/admin-products.html">Admin</a></li>
+					<li class="nav-user-mobile">
+						<a href="#" class="user-avatar">
+							<img src="assets/images/user2.png" alt="Usuario">
+						</a>
+						<a href="pages/register.html" class="login-btn">Ingresar</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="user-area">
+				<a href="#" class="cart-icon">🛒</a>
+				<a href="#" class="user-avatar desktop-only">
+					<img src="assets/images/user2.png" alt="Usuario">
+				</a>
+				<a href="pages/register.html" class="login-btn desktop-only">Ingresar</a>
+			</div>
+			<div class="header-actions">
+				<a href="#" class="cart-icon">🛒</a>
+				<label for="menu-toggle" class="menu-toggle-label">
+					<span></span>
+					<span></span>
+					<span></span>
+				</label>
+			</div>
+		</section>
+	</header>
+
+	<main class="main-container">
+		<section class="hero-section">
+			<div class="welcome">
+				<div class="hero-text">
+					<h1>Beats que <span>inspiran</span></h1>
+					<p>Descubrí los mejores beats con la calidad más profesional del mercado.
+						Creatividad, flow y confianza en un solo lugar.</p>
+					<a href="pages/products.html" class="btn btn-primary">Ver Beats</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-container">
+			<div class="info-section">
+				<div class="info">
+					<h2>Sobre BeatShop</h2>
+					<p>En BeatShop nos apasiona la música. Desde nuestros inicios, nos dedicamos a ofrecer los
+						mejores beats del mercado, seleccionando cuidadosamente cada producción para
+						garantizar la mejor experiencia a nuestros clientes.</p>
+					<p>Trabajamos con los productores más reconocidos del mundo y ofrecemos asesoramiento personalizado para
+						que encuentres exactamente el sonido que necesitás.</p>
+					<p>Comprar en BeatShop es sinónimo de confianza, calidad y el mejor precio garantizado.</p>
+					<a href="pages/about.html" class="btn btn-secondary">Conocé más</a>
+				</div>
+				<img src="assets/images/studio.jpg"
+					alt="Estudio de producción musical">
+			</div>
+		</section>
+
+		<section class="products-section section-container">
+			<div class="section-header">
+				<h2>Beats Destacados</h2>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<img src="assets/images/products/ref_img.jpg"
+						alt="Boombap Classic">
+					<span class="card-category">Hip Hop</span>
+				</div>
+				<div class="card-body">
+					<h3>Boombap Classic</h3>
+					<p>Beat boombap con samples vintage, kicks pesados y scratches analógicos.</p>
+					<div class="card-price">$85.000</div>
+					<div class="card-actions">
+						<a href="#" class="btn btn-primary">Comprar</a>
+						<a href="pages/product-detail.html" class="btn btn-secondary">Ver más</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<img src="assets/images/products/ref_img.jpg"
+						alt="Trap Looper">
+					<span class="card-category">Hip Hop</span>
+				</div>
+				<div class="card-body">
+					<h3>Trap Looper</h3>
+					<p>Beat trap con 808 profundos, hi-hats en tresillo y atmósfera oscura.</p>
+					<div class="card-price">$45.000</div>
+					<div class="card-actions">
+						<a href="#" class="btn btn-primary">Comprar</a>
+						<a href="pages/product-detail.html" class="btn btn-secondary">Ver más</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<img src="assets/images/products/ref_img.jpg"
+						alt="Melodic Drill">
+					<span class="card-category">Trap</span>
+				</div>
+				<div class="card-body">
+					<h3>Melodic Drill</h3>
+					<p>Beat drill con melodías emotivas, 808 slides y percusión agresiva.</p>
+					<div class="card-price">$50.000</div>
+					<div class="card-actions">
+						<a href="#" class="btn btn-primary">Comprar</a>
+						<a href="pages/product-detail.html" class="btn btn-secondary">Ver más</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<img src="assets/images/products/ref_img.jpg"
+						alt="Dark R&B">
+					<span class="card-category">R&B</span>
+				</div>
+				<div class="card-body">
+					<h3>Dark R&B</h3>
+					<p>Beat R&B con pads atmosféricos, grooves suaves y líneas de bajo envolventes.</p>
+					<div class="card-price">$65.000</div>
+					<div class="card-actions">
+						<a href="#" class="btn btn-primary">Comprar</a>
+						<a href="pages/product-detail.html" class="btn btn-secondary">Ver más</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-container">
+			<h2>¿Por qué elegirnos?</h2>
+			<div class="features-section">
+				<div class="feature-item">
+					<span class="feature-icon">⚡</span>
+					<h3>Descarga Inmediata</h3>
+					<p>Una vez realizada la compra, recibí al instante tu beat en formato WAV y MP3 de alta calidad,
+						listo para usar en tus proyectos.</p>
+				</div>
+				<div class="feature-item">
+					<span class="feature-icon">🛡️</span>
+					<h3>Licencia Incluida</h3>
+					<p>Todos nuestros beats incluyen licencia de uso comercial. Usalos en tus canciones, mixes y
+						lanzamientos sin preocupaciones.</p>
+				</div>
+				<div class="feature-item">
+					<span class="feature-icon">💬</span>
+					<h3>Soporte 24/7</h3>
+					<p>Nuestro equipo de productores está disponible las 24 horas del día, los 7 días de la semana, para
+						ayudarte a encontrar el sonido perfecto.</p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="main-footer">
+		<div class="footer-content">
+			<div class="footer-column">
+				<a href="index.html" class="footer-logo"><span>Beat</span>Shop</a>
+				<p>Tu tienda de beats de confianza. Producciones originales, la mejor calidad y descarga inmediata.</p>
+			</div>
+			<div class="footer-column">
+				<h3>Seguinos</h3>
+				<p>Conectate con nosotros en redes sociales para estar al tanto de las últimas novedades y ofertas.</p>
+				<div class="footer-social">
+					<a href="#" title="Facebook">Facebook</a>
+					<a href="#" title="Twitter">Twitter</a>
+					<a href="#" title="LinkedIn">LinkedIn</a>
+				</div>
+			</div>
+			<div class="footer-column">
+				<h3>Contacto</h3>
+				<p>Email: info@beatshop.com</p>
+				<p>Tel: (+54) 011 5899-6827</p>
+				<p>Dir: Gral. Alvarado 73, Ramos Mejia</p>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<p>&copy; 2026 BeatShop. Todos los derechos reservados.</p>
+		</div>
+	</footer>
+</body>
+
+</html>

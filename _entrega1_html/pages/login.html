@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Iniciar Sesión - BeatShop</title>
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+	<header class="main-header">
+		<section class="header-section">
+			<a href="../index.html" class="logo"><span>Beat</span>Shop</a>
+			<input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+			<nav>
+				<ul class="nav-list">
+					<li><a href="../index.html">Inicio</a></li>
+					<li><a href="products.html">Beats</a></li>
+					<li><a href="contact.html">Contacto</a></li>
+					<li><a href="about.html">Acerca de</a></li>
+					<li><a href="admin-products.html">Admin</a></li>
+					<li class="nav-user-mobile">
+						<a href="#" class="user-avatar">
+							<img src="../assets/images/user2.png" alt="Usuario">
+						</a>
+						<a href="register.html" class="login-btn">Ingresar</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="user-area">
+				<a href="#" class="cart-icon">🛒</a>
+				<a href="#" class="user-avatar desktop-only">
+					<img src="../assets/images/user2.png" alt="Usuario">
+				</a>
+				<a href="register.html" class="login-btn desktop-only">Ingresar</a>
+			</div>
+			<div class="header-actions">
+				<a href="#" class="cart-icon">🛒</a>
+				<label for="menu-toggle" class="menu-toggle-label">
+					<span></span>
+					<span></span>
+					<span></span>
+				</label>
+			</div>
+		</section>
+	</header>
+
+	<main class="main-container">
+		<section class="register-section section-container">
+			<form class="register-form">
+				<h2>Iniciar Sesión</h2>
+				<div class="form-group">
+					<label for="email">Correo electrónico</label>
+					<input type="email" id="email" name="email" required placeholder="tu@email.com">
+				</div>
+				<div class="form-group">
+					<label for="password">Contraseña</label>
+					<input type="password" id="password" name="password" required minlength="6" placeholder="Mínimo 6 caracteres">
+				</div>
+				<button type="submit" class="submit-btn">Iniciar Sesión</button>
+        <a href="register.html" class="false-account">¿No tiene cuenta?</a>
+			</form>
+		</section>
+	</main>
+
+	<footer class="main-footer">
+		<div class="footer-content">
+			<div class="footer-column">
+				<a href="../index.html" class="footer-logo"><span>Beat</span>Shop</a>
+				<p>Tu tienda de beats de confianza. Producciones originales, la mejor calidad y descarga inmediata.</p>
+			</div>
+			<div class="footer-column">
+				<h3>Seguinos</h3>
+				<p>Conectate con nosotros en redes sociales para estar al tanto de las últimas novedades y ofertas.</p>
+				<div class="footer-social">
+					<a href="#" title="Facebook">Facebook</a>
+					<a href="#" title="Twitter">Twitter</a>
+					<a href="#" title="LinkedIn">LinkedIn</a>
+				</div>
+			</div>
+			<div class="footer-column">
+				<h3>Contacto</h3>
+				<p>Email: info@beatshop.com</p>
+				<p>Tel: (+54) 011 5899-6827</p>
+				<p>Dir: Gral. Alvarado 73, Ramos Mejia</p>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<p>&copy; 2026 BeatShop. Todos los derechos reservados.</p>
+		</div>
+	</footer>
+</body>
+
+</html>
