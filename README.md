@@ -31,7 +31,7 @@ Esta segunda entrega representa la evolución completa de la maqueta inicial HTM
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/juan-pousadas-bernardis/BeatShop_1.2
+git clone https://github.com/juan-pousadas-bernardis/BeatShop
 
 # 2. Ingresar al directorio del proyecto
 cd BeatShop
